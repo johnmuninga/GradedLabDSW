@@ -1,0 +1,23 @@
+.container {
+    width: 50%; /* Set the width of the container to 50% of the parent element */
+    margin: auto; /* Center the container horizontally */
+}
+
+#count {
+    color: green; /* Set the text color of the count element to green */
+    font-size: "18px"; /* Set the font size of the count element to 18 pixels */
+}
+
+#list li:nth-child(odd) {
+    background-color: white; /* Set the background color of odd-numbered list items to white */
+}
+
+#list li:nth-child(even) {
+    background-color: yellow; /* Set the background color of even-numbered list items to yellow */
+}
+
+#itemRemoved {
+    color: red; /* Set the text color of the itemRemoved element to red */
+    font-size: 18px; /* Set the font size of the itemRemoved element to 18 pixels */
+    font-weight: bold; /* Set the font weight of the itemRemoved element to bold */
+}
